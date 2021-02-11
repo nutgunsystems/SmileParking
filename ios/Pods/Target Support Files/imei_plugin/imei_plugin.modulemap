@@ -1,0 +1,6 @@
+framework module imei_plugin {
+  umbrella header "imei_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}

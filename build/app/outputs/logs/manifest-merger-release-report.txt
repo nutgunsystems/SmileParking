@@ -1,0 +1,656 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:1:1-51:12
+MERGED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:2:1-18:12
+MERGED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:2:1-20:12
+MERGED from [:firebase_core] /Users/khun/ProjectFlutter/smileparking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-core:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/bb7607bf59cc509614ca4c4fe741a1bd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3448b5a34c3c6147b5317ed8b99b009b/AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/khun/ProjectFlutter/smileparking/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:imei_plugin] /Users/khun/ProjectFlutter/smileparking/build/imei_plugin/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:location_web] /Users/khun/ProjectFlutter/smileparking/build/location_web/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] /Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:shared_preferences] /Users/khun/ProjectFlutter/smileparking/build/shared_preferences/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/khun/.gradle/caches/transforms-2/files-2.1/8c079f18e5eeae3dc245f5b2bb9a7ca1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:17:1-45:12
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/f7e603fcd961ebefeb603a64e4c4bb85/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/66a5d6fd24829164c1023a20e149a9a9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:17:1-46:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d50ad67355a2e72380f67245074d79e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/80f65a4d676192a11276b45e58544884/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/222a2d86fa934bb52d6bbf3e30659355/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a32d222f91483e740278ef224ecf82a2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a2d11df40230c77650e37f07a4ddf811/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/74bd472e99da3c84c84247e7b9c279b6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/956377ee6a68650caa442e498a8c6a3b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/e4c78134b6c40dfd59e2e54adef4205b/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ee45b0f00b9a0f7bb4139640f714da0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d03923eb39bdc3f98e1ce1b307a5a5c5/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/26502e19605205d327467dc741003288/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/494a1e79a30a57d7995437c0ac14374f/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6fa0a7ce3993ac598d2e58865cbc73e5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8c1cf6b8c38a67e3b236e21d20964b8e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a6b88dbc3991831fd75eea635b6e6161/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/ca6024a44c224b5b1c612c8ac2e06d65/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/194c33eb59e98a9be7552fbd257f7c3a/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/27f46582031903651816e1177f07e3a6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/f058be3877bc860727a2333be79e4c50/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6c65cbdf9e11c6c0f7982ad54197b6d3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/4fca39e3f51747ed1c51d1cae897073e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/b06b5c6fde9efd3ef91bbc29783e71ac/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8189916946de583a7899ca65a79ae350/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c3070c555919c88a50cee2734558abcf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8e0ee62a0e7d71f64be183cdcf4737e6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/206a3480bc95f25768c009d5e64dbb66/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/1e483cdd5a540e865f68571d7fcac36a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/e9da0d1b4379418b7b4e94a2de0cbd7d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/khun/.gradle/caches/transforms-2/files-2.1/2bce9d04097d4422c29810efc007f130/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/87a2c8b9331919003e104611d2b8b3d0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/0b08631ba92a0f92e4d1234bf3c624f3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c9873739735d0ef9ebdcd338871a5656/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/59501a78047284026aa79a15e4fb2902/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/ee3870277ed167e7b3f2912b13a2ee81/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c9553597819ad72a93afb81c67fd898a/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/03c8efbf1f48952dd6f651b489e90635/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/495488a2420668f21fcbadefb0ad5532/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/7d616ac1e91222784bbfbe3ea63909c1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/29a2014d904db0f79d581bf04300efe9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/bd9dfdb979c0508d70b5ad2404c6e72c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/e1d7d83e5f8013bce38eb8270945ad48/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c6251212c139a945aeca2a50b1edbe3f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/69c40b2794c3d5b4251d0f637fa4b7dd/AndroidManifest.xml:15:1-22:12
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:1:1-51:12
+	package
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:2:5-47
+		INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:1:1-51:12
+		INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:1:1-51:12
+		INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:8:5-50:19
+MERGED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:10:5-16:19
+MERGED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:10:5-16:19
+MERGED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:7:5-18:19
+MERGED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:7:5-18:19
+MERGED from [:firebase_core] /Users/khun/ProjectFlutter/smileparking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/khun/ProjectFlutter/smileparking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-core:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/bb7607bf59cc509614ca4c4fe741a1bd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/bb7607bf59cc509614ca4c4fe741a1bd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3448b5a34c3c6147b5317ed8b99b009b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3448b5a34c3c6147b5317ed8b99b009b/AndroidManifest.xml:7:5-20
+MERGED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:5-20:19
+MERGED from [:url_launcher] /Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/f7e603fcd961ebefeb603a64e4c4bb85/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/f7e603fcd961ebefeb603a64e4c4bb85/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/80f65a4d676192a11276b45e58544884/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/80f65a4d676192a11276b45e58544884/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/222a2d86fa934bb52d6bbf3e30659355/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/222a2d86fa934bb52d6bbf3e30659355/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/956377ee6a68650caa442e498a8c6a3b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/956377ee6a68650caa442e498a8c6a3b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ee45b0f00b9a0f7bb4139640f714da0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ee45b0f00b9a0f7bb4139640f714da0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d03923eb39bdc3f98e1ce1b307a5a5c5/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d03923eb39bdc3f98e1ce1b307a5a5c5/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/26502e19605205d327467dc741003288/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/26502e19605205d327467dc741003288/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/494a1e79a30a57d7995437c0ac14374f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/494a1e79a30a57d7995437c0ac14374f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6fa0a7ce3993ac598d2e58865cbc73e5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6fa0a7ce3993ac598d2e58865cbc73e5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8c1cf6b8c38a67e3b236e21d20964b8e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8c1cf6b8c38a67e3b236e21d20964b8e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/ca6024a44c224b5b1c612c8ac2e06d65/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/ca6024a44c224b5b1c612c8ac2e06d65/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/194c33eb59e98a9be7552fbd257f7c3a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/194c33eb59e98a9be7552fbd257f7c3a/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.2] /Users/khun/.gradle/caches/transforms-2/files-2.1/2bce9d04097d4422c29810efc007f130/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/khun/.gradle/caches/transforms-2/files-2.1/2bce9d04097d4422c29810efc007f130/AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/495488a2420668f21fcbadefb0ad5532/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/495488a2420668f21fcbadefb0ad5532/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/khun/.gradle/caches/transforms-2/files-2.1/2bce9d04097d4422c29810efc007f130/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:10:9-38
+	android:icon
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:11:9-45
+	android:name
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:9:9-57
+activity#com.flutterthailand.smileparking.MainActivity
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:12:9-44:20
+	android:launchMode
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:14:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:17:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:18:13-55
+	android:configChanges
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:16:13-163
+	android:theme
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:15:13-47
+	android:name
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:13:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:23:13-26:17
+	android:resource
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:25:15-52
+	android:name
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:24:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:32:13-35:17
+	android:resource
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:34:15-61
+	android:name
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:33:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:37:17-68
+	android:name
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:38:27-74
+intent-filter#action:name:FLUTTER_NOTIFICATION_CLICK+category:name:android.intent.category.DEFAULT
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:40:14-43:29
+action#FLUTTER_NOTIFICATION_CLICK
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:41:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:42:27-73
+meta-data#flutterEmbedding
+ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:47:9-49:33
+	android:value
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:49:13-30
+	android:name
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml:48:13-44
+uses-sdk
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+MERGED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/khun/ProjectFlutter/smileparking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/khun/ProjectFlutter/smileparking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/bb7607bf59cc509614ca4c4fe741a1bd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/bb7607bf59cc509614ca4c4fe741a1bd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3448b5a34c3c6147b5317ed8b99b009b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3448b5a34c3c6147b5317ed8b99b009b/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/khun/ProjectFlutter/smileparking/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/khun/ProjectFlutter/smileparking/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:imei_plugin] /Users/khun/ProjectFlutter/smileparking/build/imei_plugin/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:imei_plugin] /Users/khun/ProjectFlutter/smileparking/build/imei_plugin/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:location_web] /Users/khun/ProjectFlutter/smileparking/build/location_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:location_web] /Users/khun/ProjectFlutter/smileparking/build/location_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/khun/ProjectFlutter/smileparking/build/shared_preferences/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/khun/ProjectFlutter/smileparking/build/shared_preferences/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/khun/.gradle/caches/transforms-2/files-2.1/8c079f18e5eeae3dc245f5b2bb9a7ca1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/khun/.gradle/caches/transforms-2/files-2.1/8c079f18e5eeae3dc245f5b2bb9a7ca1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/f7e603fcd961ebefeb603a64e4c4bb85/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/f7e603fcd961ebefeb603a64e4c4bb85/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/66a5d6fd24829164c1023a20e149a9a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/66a5d6fd24829164c1023a20e149a9a9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d50ad67355a2e72380f67245074d79e8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d50ad67355a2e72380f67245074d79e8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/80f65a4d676192a11276b45e58544884/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/80f65a4d676192a11276b45e58544884/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/222a2d86fa934bb52d6bbf3e30659355/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/222a2d86fa934bb52d6bbf3e30659355/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a32d222f91483e740278ef224ecf82a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a32d222f91483e740278ef224ecf82a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a2d11df40230c77650e37f07a4ddf811/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a2d11df40230c77650e37f07a4ddf811/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/74bd472e99da3c84c84247e7b9c279b6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/74bd472e99da3c84c84247e7b9c279b6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/956377ee6a68650caa442e498a8c6a3b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/956377ee6a68650caa442e498a8c6a3b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/e4c78134b6c40dfd59e2e54adef4205b/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/e4c78134b6c40dfd59e2e54adef4205b/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ee45b0f00b9a0f7bb4139640f714da0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ee45b0f00b9a0f7bb4139640f714da0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d03923eb39bdc3f98e1ce1b307a5a5c5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d03923eb39bdc3f98e1ce1b307a5a5c5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/26502e19605205d327467dc741003288/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/26502e19605205d327467dc741003288/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/494a1e79a30a57d7995437c0ac14374f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/494a1e79a30a57d7995437c0ac14374f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6fa0a7ce3993ac598d2e58865cbc73e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6fa0a7ce3993ac598d2e58865cbc73e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8c1cf6b8c38a67e3b236e21d20964b8e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8c1cf6b8c38a67e3b236e21d20964b8e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a6b88dbc3991831fd75eea635b6e6161/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a6b88dbc3991831fd75eea635b6e6161/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/ca6024a44c224b5b1c612c8ac2e06d65/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/ca6024a44c224b5b1c612c8ac2e06d65/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/194c33eb59e98a9be7552fbd257f7c3a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/194c33eb59e98a9be7552fbd257f7c3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/27f46582031903651816e1177f07e3a6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/27f46582031903651816e1177f07e3a6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/f058be3877bc860727a2333be79e4c50/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/f058be3877bc860727a2333be79e4c50/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6c65cbdf9e11c6c0f7982ad54197b6d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6c65cbdf9e11c6c0f7982ad54197b6d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/4fca39e3f51747ed1c51d1cae897073e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/4fca39e3f51747ed1c51d1cae897073e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/b06b5c6fde9efd3ef91bbc29783e71ac/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/b06b5c6fde9efd3ef91bbc29783e71ac/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8189916946de583a7899ca65a79ae350/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8189916946de583a7899ca65a79ae350/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c3070c555919c88a50cee2734558abcf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c3070c555919c88a50cee2734558abcf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8e0ee62a0e7d71f64be183cdcf4737e6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8e0ee62a0e7d71f64be183cdcf4737e6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/206a3480bc95f25768c009d5e64dbb66/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/206a3480bc95f25768c009d5e64dbb66/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/1e483cdd5a540e865f68571d7fcac36a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/1e483cdd5a540e865f68571d7fcac36a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/e9da0d1b4379418b7b4e94a2de0cbd7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/e9da0d1b4379418b7b4e94a2de0cbd7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/khun/.gradle/caches/transforms-2/files-2.1/2bce9d04097d4422c29810efc007f130/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/khun/.gradle/caches/transforms-2/files-2.1/2bce9d04097d4422c29810efc007f130/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/87a2c8b9331919003e104611d2b8b3d0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/87a2c8b9331919003e104611d2b8b3d0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/0b08631ba92a0f92e4d1234bf3c624f3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/0b08631ba92a0f92e4d1234bf3c624f3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c9873739735d0ef9ebdcd338871a5656/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c9873739735d0ef9ebdcd338871a5656/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/59501a78047284026aa79a15e4fb2902/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/59501a78047284026aa79a15e4fb2902/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/ee3870277ed167e7b3f2912b13a2ee81/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/ee3870277ed167e7b3f2912b13a2ee81/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c9553597819ad72a93afb81c67fd898a/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c9553597819ad72a93afb81c67fd898a/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/03c8efbf1f48952dd6f651b489e90635/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/03c8efbf1f48952dd6f651b489e90635/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/495488a2420668f21fcbadefb0ad5532/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/495488a2420668f21fcbadefb0ad5532/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/7d616ac1e91222784bbfbe3ea63909c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/7d616ac1e91222784bbfbe3ea63909c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/29a2014d904db0f79d581bf04300efe9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/29a2014d904db0f79d581bf04300efe9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/bd9dfdb979c0508d70b5ad2404c6e72c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/bd9dfdb979c0508d70b5ad2404c6e72c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/e1d7d83e5f8013bce38eb8270945ad48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/e1d7d83e5f8013bce38eb8270945ad48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c6251212c139a945aeca2a50b1edbe3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/c6251212c139a945aeca2a50b1edbe3f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/69c40b2794c3d5b4251d0f637fa4b7dd/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/69c40b2794c3d5b4251d0f637fa4b7dd/AndroidManifest.xml:18:5-20:41
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/khun/ProjectFlutter/smileparking/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:8:22-76
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:11:9-15:56
+	android:enabled
+		ADDED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+	android:foregroundServiceType
+		ADDED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [:location] /Users/khun/ProjectFlutter/smileparking/build/location/intermediates/library_manifest/release/AndroidManifest.xml:12:13-71
+service#io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+	android:name
+		ADDED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:18-101
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:17-78
+	android:name
+		ADDED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:9-17:19
+MERGED from [:firebase_core] /Users/khun/ProjectFlutter/smileparking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/khun/ProjectFlutter/smileparking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:36:9-42:19
+MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:36:9-42:19
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/f7e603fcd961ebefeb603a64e4c4bb85/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/f7e603fcd961ebefeb603a64e4c4bb85/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:38:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [:firebase_messaging] /Users/khun/ProjectFlutter/smileparking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/khun/ProjectFlutter/smileparking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/khun/ProjectFlutter/smileparking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/khun/ProjectFlutter/smileparking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /Users/khun/ProjectFlutter/smileparking/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:imei_plugin] /Users/khun/ProjectFlutter/smileparking/build/imei_plugin/intermediates/library_manifest/release/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from [:imei_plugin] /Users/khun/ProjectFlutter/smileparking/build/imei_plugin/intermediates/library_manifest/release/AndroidManifest.xml:7:22-72
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:28:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:31:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:29:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:39:13-41:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:41:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/8b1fe6844089e6ae168d2cc78e548a6a/AndroidManifest.xml:40:17-119
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a6b88dbc3991831fd75eea635b6e6161/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a6b88dbc3991831fd75eea635b6e6161/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a6b88dbc3991831fd75eea635b6e6161/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a6b88dbc3991831fd75eea635b6e6161/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a6b88dbc3991831fd75eea635b6e6161/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/a6b88dbc3991831fd75eea635b6e6161/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/6ae3e4872c43525c5c0b199f4af73e85/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/53a9c94a1abf3ba9815e37404773f83c/AndroidManifest.xml:42:25-78
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/2495ad769a346358b3e441bf16980e2b/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/f7e603fcd961ebefeb603a64e4c4bb85/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/f7e603fcd961ebefeb603a64e4c4bb85/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/f7e603fcd961ebefeb603a64e4c4bb85/AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/khun/.gradle/caches/transforms-2/files-2.1/c5dff2204a520e0ce83fab7d05fde882/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/khun/.gradle/caches/transforms-2/files-2.1/a17705012175e01dd2272fdab6e6699d/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/68674c003686ab30e8ac22e216a7b840/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:18.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/15093ab5fb4ad96aa3d3fb12d2ec5f37/AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d03923eb39bdc3f98e1ce1b307a5a5c5/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d03923eb39bdc3f98e1ce1b307a5a5c5/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d03923eb39bdc3f98e1ce1b307a5a5c5/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/d03923eb39bdc3f98e1ce1b307a5a5c5/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/194c33eb59e98a9be7552fbd257f7c3a/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/194c33eb59e98a9be7552fbd257f7c3a/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/194c33eb59e98a9be7552fbd257f7c3a/AndroidManifest.xml:24:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/3bf9a79909ab2df7a3851401776788e6/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/khun/.gradle/caches/transforms-2/files-2.1/294123b68dc8ab745f5eac6555f7bbb3/AndroidManifest.xml:33:13-132

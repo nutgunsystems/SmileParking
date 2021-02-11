@@ -1,0 +1,19 @@
+# This is a generated file; do not edit or check into version control.
+firebase_core=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.1/
+firebase_core_web=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.0/
+firebase_messaging=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-7.0.3/
+flutter_plugin_android_lifecycle=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11/
+image_picker=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+12/
+imei_plugin=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/imei_plugin-1.2.0/
+path_provider_linux=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
+path_provider_windows=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+1/
+shared_preferences=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.12+2/
+shared_preferences_linux=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_linux-0.0.2+2/
+shared_preferences_macos=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_macos-0.0.1+10/
+shared_preferences_web=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-0.1.2+7/
+shared_preferences_windows=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_windows-0.0.1+1/
+url_launcher=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10/
+url_launcher_linux=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4/
+url_launcher_macos=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9/
+url_launcher_web=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1/
+url_launcher_windows=/Users/khun/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3/

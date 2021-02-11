@@ -1,0 +1,95 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+ProcessException: ProcessException: Process exited abnormally:
+adb: error: more than one device/emulator
+  Command: /Users/khun/Library/Android/sdk/platform-tools/adb -s 192.168.56.101:5555 forward --remove tcp:53862
+
+```
+#0      RunResult.throwException (package:flutter_tools/src/base/process.dart:172:5)
+#1      AndroidDevicePortForwarder.unforward (package:flutter_tools/src/android/android_device.dart:1334:15)
+<asynchronous suspension>
+#2      AndroidDevicePortForwarder.dispose (package:flutter_tools/src/android/android_device.dart:1340:13)
+#3      AndroidDevice.dispose (package:flutter_tools/src/android/android_device.dart:838:27)
+#4      HotRunner.cleanupAtFinish (package:flutter_tools/src/run_hot.dart:1163:34)
+#5      ResidentRunner.waitForAppToFinish (package:flutter_tools/src/resident_runner.dart:1315:11)
+<asynchronous suspension>
+#6      HotRunner.attach (package:flutter_tools/src/run_hot.dart:289:22)
+#7      _rootRunUnary (dart:async/zone.dart:1198:47)
+#8      _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#9      _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#10     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#11     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#12     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#13     _AsyncAwaitCompleter.complete (dart:async-patch/async_patch.dart:40:15)
+#14     _completeOnAsyncReturn (dart:async-patch/async_patch.dart:311:13)
+#15     FlutterVmService.getFlutterViews (package:flutter_tools/src/vmservice.dart)
+#16     _rootRunUnary (dart:async/zone.dart:1198:47)
+#17     _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#18     _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#19     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#20     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#21     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#22     Future._asyncCompleteWithValue.<anonymous closure> (dart:async/future_impl.dart:567:7)
+#23     _rootRun (dart:async/zone.dart:1190:13)
+#24     _CustomZone.run (dart:async/zone.dart:1093:19)
+#25     _CustomZone.runGuarded (dart:async/zone.dart:997:7)
+#26     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1037:23)
+#27     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#28     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#29     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#30     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:169:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 1.22.4, on Mac OS X 10.15.7 19H2
+    darwin-x64, locale en-TH)
+    • Flutter version 1.22.4 at /Users/khun/flutter
+    • Framework revision 1aafb3a8b9 (3 weeks ago), 2020-11-13
+      09:59:28 -0800
+    • Engine revision 2c956a31c0
+    • Dart version 2.10.4
+
+[✓] Android toolchain - develop for Android devices (Android SDK
+    version 30.0.2)
+    • Android SDK at /Users/khun/Library/Android/sdk
+    • Platform android-30, build-tools 30.0.2
+    • Java binary at: /Applications/Android
+      Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build
+      1.8.0_242-release-1644-b3-6222593)
+    • All Android licenses accepted.
+
+[✓] Xcode - develop for iOS and macOS (Xcode 12.0.1)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 12.0.1, Build version 12A7300
+    • CocoaPods version 1.9.3
+
+[✓] Android Studio (version 4.0)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin version 49.0.2
+    • Dart plugin version 193.7547
+    • Java version OpenJDK Runtime Environment (build
+      1.8.0_242-release-1644-b3-6222593)
+
+[✓] VS Code (version 1.51.1)
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    • Flutter extension version 3.16.0
+
+[✓] Connected device (1 available)
+    • Custom (mobile) • 192.168.56.101:5555 • android-x86 • Android
+      7.0 (API 24)
+    ! Device 2a941d50703f7ece is not authorized.
+      You might need to check your device for an authorization
+      dialog.
+
+• No issues found!
+```

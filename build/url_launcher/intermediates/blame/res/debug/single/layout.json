@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/khun/.gradle/caches/transforms-2/files-2.1/4e3f3f878fa30a6714dfb38b4d1115c5/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/khun/.gradle/caches/transforms-2/files-2.1/4e3f3f878fa30a6714dfb38b4d1115c5/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/khun/.gradle/caches/transforms-2/files-2.1/4e3f3f878fa30a6714dfb38b4d1115c5/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/khun/.gradle/caches/transforms-2/files-2.1/4e3f3f878fa30a6714dfb38b4d1115c5/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/khun/.gradle/caches/transforms-2/files-2.1/4e3f3f878fa30a6714dfb38b4d1115c5/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/khun/ProjectFlutter/smileparking/build/url_launcher/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/khun/.gradle/caches/transforms-2/files-2.1/4e3f3f878fa30a6714dfb38b4d1115c5/res/layout/notification_template_part_time.xml"
+    }
+]
