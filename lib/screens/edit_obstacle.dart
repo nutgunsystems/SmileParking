@@ -1,3 +1,4 @@
+import 'package:Smileparking/utility/my_phone.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -37,8 +38,11 @@ class _EditObstacleState extends State<EditObstacle> {
 
   String car_identify,
       car_province,
+      owner_contact,
+      owner_contact_hidden,
       informer_name,
       informer_contact,
+      informer_contact_hidden,
       url_carimage;
 
   String ownertoken = '';
@@ -92,6 +96,10 @@ class _EditObstacleState extends State<EditObstacle> {
           : cardsModel.refCarProvince;
       informertoken = cardsModel.informerDeviceToken;
       ownertoken = cardsModel.ownerDeviceToken;
+      owner_contact = cardsModel.ownerContact;
+      owner_contact_hidden = MyPhone().replacePhoneNo(owner_contact);
+      informer_contact = cardsModel.informerContact;
+      informer_contact_hidden = MyPhone().replacePhoneNo(informer_contact);
 
       //print('>>> pref_membertype = $pref_membertype');
       //print('>>> pref_name = $pref_name');
@@ -292,12 +300,10 @@ class _EditObstacleState extends State<EditObstacle> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              width: 300.0,
+              width: 260.0,
               child: TextFormField(
                 style: TextStyle(color: Colors.green.shade800),
-                initialValue: (cardsModel.ownerContact != '')
-                    ? cardsModel.ownerContact
-                    : '',
+                initialValue: owner_contact_hidden,
                 enabled: false,
                 keyboardType: TextInputType.phone,
                 decoration: InputDecoration(
@@ -306,13 +312,17 @@ class _EditObstacleState extends State<EditObstacle> {
                     color: Colors.black,
                   ),
                   labelStyle: TextStyle(color: MyStyle().darkColor),
-                  labelText: 'เบอร์ติดต่อ',
+                  labelText: 'กรุณาติดต่อ',
                   enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: MyStyle().darkColor)),
                   focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: MyStyle().primaryColor)),
                 ),
               ),
+            ),
+            Container(
+              width: 60.0,
+              child: showCallbutton1(),
             ),
           ],
         ),
@@ -476,7 +486,7 @@ class _EditObstacleState extends State<EditObstacle> {
             Container(
               width: 260.0,
               child: TextFormField(
-                initialValue: cardsModel.informerContact,
+                initialValue: informer_contact_hidden,
                 enabled: false,
                 keyboardType: TextInputType.phone,
                 decoration: InputDecoration(
@@ -495,7 +505,7 @@ class _EditObstacleState extends State<EditObstacle> {
             ),
             Container(
               width: 60.0,
-              child: showCallbutton(),
+              child: showCallbutton2(),
             ),
           ],
         ),
@@ -738,7 +748,31 @@ class _EditObstacleState extends State<EditObstacle> {
     );
   }
 
-  Widget showCallbutton() {
+  Widget showCallbutton1() {
+    return SizedBox.fromSize(
+      size: Size(56, 56), // button width and height
+      child: ClipOval(
+        child: Material(
+          color: Colors.greenAccent.shade400, // button color
+          child: InkWell(
+            splashColor: Colors.white, // splash color
+            onTap: () => setState(() {
+              _launched = _makePhoneCall('tel:${cardsModel.ownerContact}');
+            }), // button pressed
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Icon(Icons.call), // icon
+                Text("Call"), // text
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget showCallbutton2() {
     return SizedBox.fromSize(
       size: Size(56, 56), // button width and height
       child: ClipOval(

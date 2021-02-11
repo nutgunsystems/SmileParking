@@ -3,6 +3,7 @@ import 'dart:io';
 import 'dart:math';
 import 'dart:async';
 
+import 'package:Smileparking/utility/my_phone.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -35,6 +36,7 @@ class _CarParkingState extends State<CarParking> {
       car_province,
       owner_name,
       owner_contact,
+      owner_contact_hidden,
       owner_token,
       url_carimage;
 
@@ -58,6 +60,7 @@ class _CarParkingState extends State<CarParking> {
             car_province = carModelset.carProvince;
             owner_name = carModelset.ownerName;
             owner_contact = carModelset.ownerContact;
+
             owner_token = carModelset.deviceToken;
             url_carimage = carModelset.urlImage;
           });
@@ -107,6 +110,7 @@ class _CarParkingState extends State<CarParking> {
         car_province = carModelset.carProvince;
         owner_name = carModelset.ownerName;
         owner_contact = carModelset.ownerContact;
+        owner_contact_hidden = MyPhone().replacePhoneNo(owner_contact);
         owner_token = carModelset.deviceToken;
         url_carimage = carModelset.urlImage;
       });
@@ -268,7 +272,7 @@ class _CarParkingState extends State<CarParking> {
             Container(
               width: 260.0,
               child: TextFormField(
-                initialValue: owner_contact,
+                initialValue: owner_contact_hidden,
                 enabled: false,
                 keyboardType: TextInputType.phone,
                 decoration: InputDecoration(
