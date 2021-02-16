@@ -19,6 +19,7 @@ class SignIn extends StatefulWidget {
 class _SignInState extends State<SignIn> {
 // field
   String user, password;
+  bool statusRedEye = true;
 
   String dns = MyConstant().domain_url;
 
@@ -144,12 +145,19 @@ class _SignInState extends State<SignIn> {
         width: 250.0,
         child: TextField(
           onChanged: (value) => password = value.trim(),
-          obscureText: true,
+          obscureText: statusRedEye,
           decoration: InputDecoration(
             prefixIcon: Icon(
               Icons.lock,
               color: MyStyle().darkColor,
             ),
+            suffixIcon: IconButton(
+                icon: statusRedEye == true ? Icon(Icons.remove_red_eye) : Icon(Icons.remove_red_eye_outlined),
+                onPressed: () {
+                  setState(() {
+                    statusRedEye = !statusRedEye;
+                  });
+                }),
             labelStyle: TextStyle(color: MyStyle().darkColor),
             labelText: 'Password',
             enabledBorder: OutlineInputBorder(

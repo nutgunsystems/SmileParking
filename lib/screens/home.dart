@@ -180,7 +180,7 @@ class _HomeState extends State<Home> {
       leading: Icon(Icons.login),
       title: Text('Sign in Administrator.',
           style: TextStyle(
-            color: Colors.green,
+            color: Colors.green.shade800,
             fontSize: 16.0,
           )),
       onTap: () {
