@@ -30,6 +30,8 @@ class _ShowListState extends State<ShowList> {
 
   DSModel dsmodelset;
 
+  double myScreen = 0.0;
+
   String myServerDate = '';
   String myToken = '';
 
@@ -231,6 +233,9 @@ class _ShowListState extends State<ShowList> {
 
   @override
   Widget build(BuildContext context) {
+    //Variable of Page screen width size
+    myScreen = MediaQuery.of(context).size.width;
+
     return Scaffold(
       appBar: AppBar(
         title: showCurrentDate(),

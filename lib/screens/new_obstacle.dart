@@ -370,7 +370,10 @@ class _NewObstacleState extends State<NewObstacle> {
   Widget showEditButton() => Container(
         width: 300.0,
         child: RaisedButton.icon(
-          color: MyStyle().primaryColor,
+          color: MyStyle().darkColor,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(10.0),
+          ),
           onPressed: () {
             print('click OK');
             if ((car_identify == null || car_identify.isEmpty) ||
@@ -383,9 +386,10 @@ class _NewObstacleState extends State<NewObstacle> {
             }
           },
           icon: Icon(Icons.save),
+          textColor: Colors.white,
           label: Text(
             'บันทึกข้อมูล',
-            style: TextStyle(color: Colors.black),
+            style: TextStyle(color: Colors.white),
           ),
         ),
       );

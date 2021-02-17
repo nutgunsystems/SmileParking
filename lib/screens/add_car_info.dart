@@ -267,7 +267,10 @@ class _AddCarInfoState extends State<AddCarInfo> {
 
   RaisedButton saveButton() {
     return RaisedButton.icon(
-      color: MyStyle().primaryColor,
+      color: MyStyle().darkColor,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(10.0),
+      ),
       onPressed: () {
         if ((owner_name == null || owner_name.isEmpty) &&
             (owner_contact == null || owner_contact.isEmpty) &&
@@ -289,8 +292,8 @@ class _AddCarInfoState extends State<AddCarInfo> {
           }
         }
       },
-      icon: Icon(Icons.save),
-      label: Text('บันทึกข้อมูล'),
+      icon: Icon(Icons.save), textColor: Colors.white,
+      label: Text('บันทึกข้อมูล' , style: TextStyle(color: Colors.white),),
     );
   }
 

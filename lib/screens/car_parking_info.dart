@@ -350,15 +350,19 @@ class _CarParkingState extends State<CarParking> {
   Widget showEditButton() => Container(
         width: 300.0,
         child: RaisedButton.icon(
-          color: MyStyle().primaryColor,
+          color: MyStyle().darkColor,
+          shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(10.0),
+      ),
           onPressed: () => carModelset == null
               ? warningDialog(context, 'กรุณาระบุข้อมูลรถยนต์')
               : //Open car info in next page.
               checkDup_Obstacle(),
-          icon: Icon(Icons.edit),
+          icon: Icon(Icons.edit), textColor: Colors.white,
           label: Text(
             'แจ้งจอดกีดขวาง',
-            style: TextStyle(color: Colors.black),
+            style: TextStyle(color: Colors.white),
+
           ),
         ),
       );

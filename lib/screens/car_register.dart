@@ -142,7 +142,8 @@ class _Car_RegisterState extends State<Car_Register> {
 
   RaisedButton searchButton() {
     return RaisedButton.icon(
-      color: MyStyle().primaryColor,
+      color: MyStyle().darkColor,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
       onPressed: () {
         if (car_identify == null || car_identify.isEmpty) {
           warningDialog(context, 'กรุณากรอกทะเบียนรถ.');
@@ -153,7 +154,8 @@ class _Car_RegisterState extends State<Car_Register> {
         }
       },
       icon: Icon(Icons.search),
-      label: Text('ค้นหา'),
+      textColor: Colors.white,
+      label: Text('ค้นหา', style: TextStyle(color: Colors.white)),
     );
   }
 

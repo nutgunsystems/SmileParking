@@ -59,8 +59,7 @@ class _SignInState extends State<SignIn> {
 
   Widget loginButton() => Container(
         width: 250.0,
-        child: RaisedButton(
-          color: MyStyle().darkColor,
+        child: ElevatedButton(
           onPressed: () {
             if (user == null ||
                 user.isEmpty ||
@@ -75,6 +74,11 @@ class _SignInState extends State<SignIn> {
             'Login',
             style: TextStyle(color: Colors.white),
           ),
+          style: ElevatedButton.styleFrom(
+              primary: MyStyle().darkColor,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10.0),
+              )),
         ),
       );
 
@@ -134,8 +138,10 @@ class _SignInState extends State<SignIn> {
             labelStyle: TextStyle(color: MyStyle().darkColor),
             labelText: 'User',
             enabledBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(10.0),
                 borderSide: BorderSide(color: MyStyle().darkColor)),
             focusedBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(10.0),
                 borderSide: BorderSide(color: MyStyle().primaryColor)),
           ),
         ),
@@ -152,7 +158,9 @@ class _SignInState extends State<SignIn> {
               color: MyStyle().darkColor,
             ),
             suffixIcon: IconButton(
-                icon: statusRedEye == true ? Icon(Icons.remove_red_eye) : Icon(Icons.remove_red_eye_outlined),
+                icon: statusRedEye == true
+                    ? Icon(Icons.remove_red_eye)
+                    : Icon(Icons.remove_red_eye_outlined),
                 onPressed: () {
                   setState(() {
                     statusRedEye = !statusRedEye;
@@ -161,8 +169,10 @@ class _SignInState extends State<SignIn> {
             labelStyle: TextStyle(color: MyStyle().darkColor),
             labelText: 'Password',
             enabledBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(10.0),
                 borderSide: BorderSide(color: MyStyle().darkColor)),
             focusedBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(10.0),
                 borderSide: BorderSide(color: MyStyle().primaryColor)),
           ),
         ),
