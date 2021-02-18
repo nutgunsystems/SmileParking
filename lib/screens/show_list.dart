@@ -268,7 +268,7 @@ class _ShowListState extends State<ShowList> {
   }
 
   void routeToReload() {
-    print('Button click search');
+    //print('Button click search');
     Widget myWidget = ShowList();
 
     MaterialPageRoute routepage = MaterialPageRoute(
@@ -304,7 +304,7 @@ class _ShowListState extends State<ShowList> {
     String url =
         '$dns/SMILEPARK/findObstacle.php?isAdd=true&station_id=$myStation_ID';
 
-    print('$url');
+    //print('$url');
 
     try {
       Response response = await Dio().get(url);
@@ -312,7 +312,7 @@ class _ShowListState extends State<ShowList> {
 
       //support thai display value.
       var result = json.decode(response.data);
-      print('result = $result');
+      //print('result = $result');
 
       if (result == null) {
         //warningDialog(context, 'ไม่พบข้อมูลรถยนต์ที่ท่านระบุ, กรุณาตรวจสอบอีกครั้ง.');
@@ -391,7 +391,7 @@ class _ShowListState extends State<ShowList> {
         MaterialPageRoute routepage = MaterialPageRoute(
           builder: (context) => EditObstacle(cardsModel: obstaclesModel[index]),
         );
-
+        print('Go to EditObstacle Page');
         Navigator.pushAndRemoveUntil(context, routepage, (route) => false);
       },
       child: Card(

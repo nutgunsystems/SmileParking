@@ -87,6 +87,8 @@ class _EditObstacleState extends State<EditObstacle> {
       pref_Station_EN = preferences.getString('device_station_en');
       pref_Station_TH = preferences.getString('device_station_th');
 
+      //print('>>> rec_id = ${cardsModel.id}');
+
       rec_id = cardsModel.id;
       car_identify = (cardsModel.refCarId == null)
           ? cardsModel.carIdentify
@@ -94,12 +96,23 @@ class _EditObstacleState extends State<EditObstacle> {
       car_province = (cardsModel.refCarId == null)
           ? cardsModel.carProvince
           : cardsModel.refCarProvince;
+
       informertoken = cardsModel.informerDeviceToken;
       ownertoken = cardsModel.ownerDeviceToken;
+
+      //print('>>> owner_contact = ${cardsModel.ownerContact}');
+
       owner_contact = cardsModel.ownerContact;
-      owner_contact_hidden = MyPhone().replacePhoneNo(owner_contact);
+      owner_contact_hidden = (owner_contact != null)
+          ? MyPhone().replacePhoneNo(owner_contact)
+          : '';
+
+      //print('>>> informer_contact = ${cardsModel.informerContact}');
+
       informer_contact = cardsModel.informerContact;
-      informer_contact_hidden = MyPhone().replacePhoneNo(informer_contact);
+      informer_contact_hidden = (informer_contact != null)
+          ? MyPhone().replacePhoneNo(informer_contact)
+          : '';
 
       //print('>>> pref_membertype = $pref_membertype');
       //print('>>> pref_name = $pref_name');
@@ -601,7 +614,8 @@ class _EditObstacleState extends State<EditObstacle> {
               }
             }
           },
-          icon: Icon(Icons.save), textColor: Colors.white,
+          icon: Icon(Icons.save),
+          textColor: Colors.white,
           label: Text(
             'บันทึกข้อมูล',
             style: TextStyle(color: Colors.white),
