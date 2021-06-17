@@ -9,15 +9,15 @@ import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:imei_plugin/imei_plugin.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:Smileparking/model/mobilemodel.dart';
-import 'package:Smileparking/screens/show_list.dart';
-import 'package:Smileparking/utility/my_cons.dart';
-import 'package:Smileparking/utility/my_search.dart';
-import 'package:Smileparking/utility/my_style.dart';
-import 'package:Smileparking/utility/my_utf8.dart';
-import 'package:Smileparking/utility/signout.dart';
+import 'package:smileparking/model/mobilemodel.dart';
+import 'package:smileparking/screens/show_list.dart';
+import 'package:smileparking/utility/my_cons.dart';
+import 'package:smileparking/utility/my_search.dart';
+import 'package:smileparking/utility/my_style.dart';
+import 'package:smileparking/utility/my_utf8.dart';
+import 'package:smileparking/utility/signout.dart';
 
-import 'package:Smileparking/utility/warning_dialog.dart';
+import 'package:smileparking/utility/warning_dialog.dart';
 
 class AddCarInfo extends StatefulWidget {
   @override
@@ -292,8 +292,12 @@ class _AddCarInfoState extends State<AddCarInfo> {
           }
         }
       },
-      icon: Icon(Icons.save), textColor: Colors.white,
-      label: Text('บันทึกข้อมูล' , style: TextStyle(color: Colors.white),),
+      icon: Icon(Icons.save),
+      textColor: Colors.white,
+      label: Text(
+        'บันทึกข้อมูล',
+        style: TextStyle(color: Colors.white),
+      ),
     );
   }
 

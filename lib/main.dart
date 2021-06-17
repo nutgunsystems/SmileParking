@@ -1,9 +1,6 @@
-
 import 'package:flutter/material.dart';
-
-import 'package:Smileparking/screens/home.dart';
-import 'package:Smileparking/screens/show_list.dart';
-
+import 'package:smileparking/screens/home.dart';
+import 'package:smileparking/screens/show_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,8 +8,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   String myToken = '';
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +17,4 @@ class MyApp extends StatelessWidget {
       //home: ParentWidget(),
     );
   }
-
-  
 }

@@ -2,12 +2,12 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:Smileparking/screens/show_list.dart';
-import 'package:Smileparking/utility/my_cons.dart';
+import 'package:smileparking/screens/show_list.dart';
+import 'package:smileparking/utility/my_cons.dart';
 
-import 'package:Smileparking/utility/my_style.dart';
-import 'package:Smileparking/utility/warning_dialog.dart';
-import 'package:Smileparking/model/usermodel.dart';
+import 'package:smileparking/utility/my_style.dart';
+import 'package:smileparking/utility/warning_dialog.dart';
+import 'package:smileparking/model/usermodel.dart';
 
 import 'package:dio/dio.dart';
 

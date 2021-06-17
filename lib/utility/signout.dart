@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:Smileparking/screens/home.dart';
+import 'package:smileparking/screens/home.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 Future<Null> signOutProcress() async {

@@ -5,10 +5,9 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:imei_plugin/imei_plugin.dart';
-import 'package:Smileparking/model/mobilemodel.dart';
+import 'package:smileparking/model/mobilemodel.dart';
 
 class MyMobile {
-  
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<MobileModel> initPlatformState() async {
     var jsonData;

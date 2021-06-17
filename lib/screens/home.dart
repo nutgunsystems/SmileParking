@@ -7,17 +7,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:imei_plugin/imei_plugin.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:Smileparking/model/mobilemodel.dart';
-import 'package:Smileparking/screens/add_car_info.dart';
-import 'package:Smileparking/screens/car_register.dart';
-import 'package:Smileparking/screens/edit_station.dart';
-import 'package:Smileparking/screens/new_obstacle.dart';
-import 'package:Smileparking/screens/show_list.dart';
-import 'package:Smileparking/screens/singin.dart';
-import 'package:Smileparking/utility/my_mobile.dart';
-import 'package:Smileparking/utility/my_style.dart';
-import 'package:Smileparking/utility/normal_dialog.dart';
-import 'package:Smileparking/utility/signout.dart';
+import 'package:smileparking/model/mobilemodel.dart';
+import 'package:smileparking/screens/add_car_info.dart';
+import 'package:smileparking/screens/car_register.dart';
+import 'package:smileparking/screens/edit_station.dart';
+import 'package:smileparking/screens/new_obstacle.dart';
+import 'package:smileparking/screens/show_list.dart';
+import 'package:smileparking/screens/singin.dart';
+import 'package:smileparking/utility/my_mobile.dart';
+import 'package:smileparking/utility/my_style.dart';
+import 'package:smileparking/utility/normal_dialog.dart';
+import 'package:smileparking/utility/signout.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -333,7 +333,14 @@ class _HomeState extends State<Home> {
             ),
           ],
         ),
-        MyStyle().showTitleH1Black('ลงทะเบียนรถ')
+        Column(mainAxisAlignment: MainAxisAlignment.start, children: [
+          Container(
+            margin: EdgeInsets.only(left: 10.0, right: 16.0, bottom: 16.0),
+            child: FlatButton(
+                onPressed: () => routeToAddCar(),
+                child: MyStyle().showTitleH1Black('ลงทะเบียนรถ')),
+          )
+        ]),
       ],
     );
   }
@@ -356,7 +363,15 @@ class _HomeState extends State<Home> {
             ),
           ],
         ),
-        MyStyle().showTitleH1Gley('ค้นหาข้อมูลรถ')
+        Column(mainAxisAlignment: MainAxisAlignment.start, children: [
+          Container(
+            margin: EdgeInsets.only(left: 10.0, right: 16.0, bottom: 16.0),
+            child: FlatButton(
+              onPressed: () => routeToFindCar(),
+              child: MyStyle().showTitleH1Gley('ค้นหาข้อมูลรถ'),
+            ),
+          )
+        ]),
       ],
     );
   }
@@ -379,7 +394,15 @@ class _HomeState extends State<Home> {
             ),
           ],
         ),
-        MyStyle().showTitleH1Gley('ติดตามเจ้าของรถ')
+        Column(mainAxisAlignment: MainAxisAlignment.start, children: [
+          Container(
+            margin: EdgeInsets.only(left: 10.0, right: 16.0, bottom: 16.0),
+            child: FlatButton(
+              onPressed: () => routeToObstacle(),
+              child: MyStyle().showTitleH1Gley('ติดตามเจ้าของรถ'),
+            ),
+          )
+        ]),
       ],
     );
   }
@@ -402,7 +425,14 @@ class _HomeState extends State<Home> {
             ),
           ],
         ),
-        MyStyle().showTitleH1Gley('จอดขีดขวาง')
+        Column(mainAxisAlignment: MainAxisAlignment.start, children: [
+          Container(
+            margin: EdgeInsets.only(left: 10.0, right: 16.0, bottom: 16.0),
+            child: FlatButton(
+                onPressed: () => routeToList(),
+                child: MyStyle().showTitleH1Gley('จอดขีดขวาง')),
+          )
+        ]),
       ],
     );
   }
@@ -425,7 +455,14 @@ class _HomeState extends State<Home> {
             ),
           ],
         ),
-        MyStyle().showTitleH1Green('สถานทีจอดรถ')
+        Column(mainAxisAlignment: MainAxisAlignment.start, children: [
+          Container(
+            margin: EdgeInsets.only(left: 10.0, right: 16.0, bottom: 16.0),
+            child: FlatButton(
+                onPressed: () => routeToStation(),
+                child: MyStyle().showTitleH1Green('สถานทีจอดรถ')),
+          )
+        ]),
       ],
     );
   }

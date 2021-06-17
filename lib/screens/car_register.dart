@@ -5,15 +5,15 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:Smileparking/model/carmodel.dart';
-import 'package:Smileparking/screens/car_parking_info.dart';
-import 'package:Smileparking/screens/reg_list.dart';
-import 'package:Smileparking/utility/my_cons.dart';
-import 'package:Smileparking/utility/my_search.dart';
-import 'package:Smileparking/utility/my_style.dart';
-import 'package:Smileparking/utility/my_utf8.dart';
-import 'package:Smileparking/utility/signout.dart';
-import 'package:Smileparking/utility/warning_dialog.dart';
+import 'package:smileparking/model/carmodel.dart';
+import 'package:smileparking/screens/car_parking_info.dart';
+import 'package:smileparking/screens/reg_list.dart';
+import 'package:smileparking/utility/my_cons.dart';
+import 'package:smileparking/utility/my_search.dart';
+import 'package:smileparking/utility/my_style.dart';
+import 'package:smileparking/utility/my_utf8.dart';
+import 'package:smileparking/utility/signout.dart';
+import 'package:smileparking/utility/warning_dialog.dart';
 
 class Car_Register extends StatefulWidget {
   @override

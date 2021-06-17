@@ -5,11 +5,11 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:Smileparking/model/carmodel.dart';
-import 'package:Smileparking/utility/my_cons.dart';
-import 'package:Smileparking/utility/my_style.dart';
-import 'package:Smileparking/utility/signout.dart';
-import 'package:Smileparking/utility/warning_dialog.dart';
+import 'package:smileparking/model/carmodel.dart';
+import 'package:smileparking/utility/my_cons.dart';
+import 'package:smileparking/utility/my_style.dart';
+import 'package:smileparking/utility/signout.dart';
+import 'package:smileparking/utility/warning_dialog.dart';
 import 'package:intl/intl.dart';
 
 import 'car_parking_info.dart';
@@ -48,7 +48,7 @@ class _RegListState extends State<RegList> {
         ],
       ),
       body: Container(
-         decoration: BoxDecoration(
+        decoration: BoxDecoration(
           gradient: RadialGradient(
             colors: <Color>[Colors.white, MyStyle().primaryColor],
             center: Alignment(0, -0.3),
